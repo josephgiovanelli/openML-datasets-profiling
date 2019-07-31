@@ -24,6 +24,7 @@ for record in abello_only_name:
 # Use the active dataset names to filter from the original openML dataframe
 original_with_ids_all_metafeatures.set_index('Name', inplace=True)
 abello_with_ids_all_metafeatures = original_with_ids_all_metafeatures.reindex(abello_only_name)
+print(abello_with_ids_all_metafeatures)
 # Write the abello dataset with the all metafeatures
 abello_with_ids_all_metafeatures.to_csv("csv/abello/abello_with_ids_all_metafeatures.csv")
 
