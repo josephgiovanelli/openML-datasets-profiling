@@ -3,7 +3,7 @@ OpenML stores for each dataset a set of 226 meta-features.
 In this project, for computing power reasons, I analyze these meta-features only on the 2872 active datasets.
 
 ## CSV Folder Description
-The csv folder contains the tables that link for each dataset (in the rows) the relative value of each meta-fature (in the column).
+The csv folder contains the tables that link for each dataset (in the rows) the relative value of each meta-feature (in the column).
 Specifically:
 - the **abello** folder contains only tables that analyze the datasets used in the paper `T.Aluja-Banet andR.Wrembel B.Bilalli, A.Abello. Intelligentassistance for data pre-processing. Computer Standards Interfaces 57 (2018), 101 – 109, 2018.` (which are listed in this [link](http://www.essi.upc.edu/~bbilalli/datasets.html));
 - the **autosklearn** folder contains only tables that analyze the datasets used in the paper `K. Eggensperger J. Springenberg M. Blum M. Feurer, A. Klein and F. Hut- ter. Efficient and Robust Automated Machine Learning. Advances in Neural Information Processing Systems 28 (NIPS 2015), 2015.`;
@@ -22,7 +22,7 @@ Specifically:
 - **abello_with_ids_abello_metafeatures.csv** contains only the meta-features used in the paper `T.Aluja-Banet andR.Wrembel B.Bilalli, A.Abello. Intelligentassistance for data pre-processing. Computer Standards Interfaces 57 (2018), 101 – 109, 2018.` (plus the ID column).
 
 ### autosklearn folder
-- **autosklearn_with_ids_all_metafeatures.csv** contains only the datasets that are both in in the paper `K. Eggensperger J. Springenberg M. Blum M. Feurer, A. Klein and F. Hut- ter. Efficient and Robust Automated Machine Learning. Advances in Neural Information Processing Systems 28 (NIPS 2015), 2015.` and that are active. It also contains all the openML meta-features (plus the ID column);.
+- **autosklearn_with_ids_all_metafeatures.csv** contains only the datasets that are both in the paper `K. Eggensperger J. Springenberg M. Blum M. Feurer, A. Klein and F. Hut- ter. Efficient and Robust Automated Machine Learning. Advances in Neural Information Processing Systems 28 (NIPS 2015), 2015.` and that are active. It also contains all the openML meta-features (plus the ID column);.
 - **autosklearn_with_ids_abello_metafeatures.csv** contains only the meta-features used in the paper `T.Aluja-Banet andR.Wrembel B.Bilalli, A.Abello. Intelligentassistance for data pre-processing. Computer Standards Interfaces 57 (2018), 101 – 109, 2018.` (plus the ID column);
 - **autosklearn_with_ids_simply_metafeatures.csv** contains only the meta-features listed in this [link](http://www.essi.upc.edu/~bbilalli/datasets.html) (plus the ID column).
 
